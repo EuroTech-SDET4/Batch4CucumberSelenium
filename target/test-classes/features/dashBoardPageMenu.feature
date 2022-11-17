@@ -10,7 +10,7 @@ Feature: Dashboard Page Menu
       | All Posts  |
       | My Account |
 
-
+@smoke
   Scenario: Log in as a specific user
     Given The user is on the login page
     When The user logs in using following credentials
