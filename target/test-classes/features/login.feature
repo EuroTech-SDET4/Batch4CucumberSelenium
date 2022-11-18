@@ -1,10 +1,10 @@
-@login @smoke
+@login
 Feature: Eurotech Log in Test
 
   Background:
     Given The user is on the login page
 
-  @Teacher
+  @Teacher @smoke
   Scenario: Login as a teacher
 
     When  The user enters teacher credentials
