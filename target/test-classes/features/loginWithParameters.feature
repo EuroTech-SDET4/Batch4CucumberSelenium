@@ -19,7 +19,8 @@ Feature: Log in as different user
       # Welcome Babamyrat
       # Welcome Fevzi
 
-  Scenario: Log in as student with parameters
+
+  Scenario: Log in as student with parametersss
     Given The user is on the login page
     When The user logs in using "berlin@gmail.com" and "berlin"
     Then The user should be able to login
