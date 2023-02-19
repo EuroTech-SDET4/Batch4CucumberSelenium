@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.eurotech.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.681 s <<< FAILURE! - in com.eurotech.runners.FailedTestRunner
+Navigate to Menu Parameters.User navigates to Developers Menu  Time elapsed: 2.829 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.eurotech.step_definitions.LoginStepDefs.theWelcomeMessageContains(LoginStepDefs.java:65)
+	at ✽.The welcome message contains "umut"(file:///Users/erhanilgar/Downloads/Batch4CucumberSelenium/src/test/resources/features/navigatesMenuWithParameters.feature:10)
+
+Navigate to Menu Parameters.User navigates to Developers Menu  Time elapsed: 2.816 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.eurotech.step_definitions.LoginStepDefs.theWelcomeMessageContains(LoginStepDefs.java:65)
+	at ✽.The welcome message contains "umut"(file:///Users/erhanilgar/Downloads/Batch4CucumberSelenium/src/test/resources/features/navigatesMenuWithParameters.feature:10)
+

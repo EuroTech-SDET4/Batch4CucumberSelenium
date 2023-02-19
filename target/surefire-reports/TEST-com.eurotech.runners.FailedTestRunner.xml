@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.eurotech.runners.FailedTestRunner" time="5.681" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="/Users/erhanilgar/.cache/selenium/chromedriver/mac-arm64/107.0.5304.62/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/test-classes:/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/classes:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/erhanilgar/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/erhanilgar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/erhanilgar/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/erhanilgar/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/erhanilgar/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/erhanilgar/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/erhanilgar/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/erhanilgar/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/erhanilgar/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/erhanilgar/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/erhanilgar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/erhanilgar/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/erhanilgar/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/erhanilgar/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/erhanilgar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/erhanilgar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/erhanilgar/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/erhanilgar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/erhanilgar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/erhanilgar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/erhanilgar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/erhanilgar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/erhanilgar/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/erhanilgar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/erhanilgar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-core/7.4.0/cucumber-core-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-gherkin/7.4.0/cucumber-gherkin-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.0/cucumber-gherkin-messages-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/erhanilgar/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/datatable/7.4.0/datatable-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-plugin/7.4.0/cucumber-plugin-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/docstring/7.4.0/docstring-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/erhanilgar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-junit/7.4.0/cucumber-junit-7.4.0.jar:/Users/erhanilgar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/erhanilgar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/erhanilgar/Library/Java/JavaVirtualMachines/azul-16.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/surefire/surefirebooter5713357490242095968.jar /Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/surefire 2022-11-17T18-38-05_004-jvmRun1 surefire350281457010302231tmp surefire_012003911074605042532tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/test-classes:/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/classes:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/erhanilgar/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/erhanilgar/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/erhanilgar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/erhanilgar/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/erhanilgar/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/erhanilgar/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/erhanilgar/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/erhanilgar/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/erhanilgar/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/erhanilgar/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/erhanilgar/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/erhanilgar/.m2/repository/io/github/bonigarcia/webdrivermanager/5.0.3/webdrivermanager-5.0.3.jar:/Users/erhanilgar/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/erhanilgar/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/erhanilgar/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java/3.2.12/docker-java-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-core/3.2.12/docker-java-core-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-api/3.2.12/docker-java-api-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/erhanilgar/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/erhanilgar/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/erhanilgar/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/erhanilgar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/erhanilgar/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/erhanilgar/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/erhanilgar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.12/docker-java-transport-httpclient5-3.2.12.jar:/Users/erhanilgar/.m2/repository/com/github/docker-java/docker-java-transport/3.2.12/docker-java-transport-3.2.12.jar:/Users/erhanilgar/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/erhanilgar/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/erhanilgar/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/erhanilgar/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/erhanilgar/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-core/7.4.0/cucumber-core-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-gherkin/7.4.0/cucumber-gherkin-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.4.0/cucumber-gherkin-messages-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/erhanilgar/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/datatable/7.4.0/datatable-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-plugin/7.4.0/cucumber-plugin-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/docstring/7.4.0/docstring-7.4.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/erhanilgar/.m2/repository/io/cucumber/ci-environment/9.0.4/ci-environment-9.0.4.jar:/Users/erhanilgar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/erhanilgar/.m2/repository/io/cucumber/cucumber-junit/7.4.0/cucumber-junit-7.4.0.jar:/Users/erhanilgar/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/erhanilgar/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/erhanilgar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="/Users/erhanilgar/Library/Java/JavaVirtualMachines/azul-16.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium/target/surefire/surefirebooter5713357490242095968.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
+    <property name="user.name" value="erhanilgar"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu16.32+15-CA"/>
+    <property name="localRepository" value="/Users/erhanilgar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/lc/wf9jqgv92pd61sxt135gl4v40000gn/T/"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="/Users/erhanilgar/Downloads/Batch4CucumberSelenium"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/erhanilgar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="16.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="User navigates to Developers Menu" classname="Navigate to Menu Parameters" time="2.829">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.eurotech.step_definitions.LoginStepDefs.theWelcomeMessageContains(LoginStepDefs.java:65)
+	at ✽.The welcome message contains "umut"(file:///Users/erhanilgar/Downloads/Batch4CucumberSelenium/src/test/resources/features/navigatesMenuWithParameters.feature:10)
+]]></failure>
+    <system-out><![CDATA[actualMessage = Welcome Teacher
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 45154
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 17, 2022 6:38:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+    <rerunFailure type="java.lang.AssertionError">
+      <stackTrace><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.eurotech.step_definitions.LoginStepDefs.theWelcomeMessageContains(LoginStepDefs.java:65)
+	at ✽.The welcome message contains "umut"(file:///Users/erhanilgar/Downloads/Batch4CucumberSelenium/src/test/resources/features/navigatesMenuWithParameters.feature:10)
+]]></stackTrace>
+      <system-out><![CDATA[actualMessage = Welcome Teacher
+]]></system-out>
+      <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 47980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 17, 2022 6:38:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+    </rerunFailure>
+  </testcase>
+</testsuite>
