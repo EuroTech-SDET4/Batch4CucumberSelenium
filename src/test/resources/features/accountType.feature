@@ -21,6 +21,8 @@ Feature: Account Types
     When The user logs in using "harslan7579@gmail.com" and "Test12345!"
 
 
+
+
   Scenario Outline: Different User Type
     Given The user is on the login page
     When The user logs in using "<userType>" and "<password>"
