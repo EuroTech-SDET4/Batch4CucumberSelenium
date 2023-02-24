@@ -15,6 +15,9 @@ import org.junit.Assert;
 import java.util.List;
 import java.util.Map;
 
+import java.util.List;
+import java.util.Map;
+
 public class LoginStepDefs {
 
     LoginPage loginPage = new LoginPage();
@@ -107,4 +110,28 @@ public class LoginStepDefs {
 
 
 
+
+    @When("The user enters {string} and row number {int}")
+    public void theUserEntersAndRowNumberRowNumber(String sheetName, Integer rowNUmber) {
+
+
+        loginPage.login(dataList.get(rowNUmber).get("Username"),dataList.get(rowNUmber).get("Password"));
+
+
+    }
+
+
+    @Then("The welcome message contains excel {int}")
+    public void the_welcome_message_contains_excel(Integer rowNumber) {
+        BrowserUtils.waitFor(1);
+        String actualMessage = dashboardPage.welcomeMessage.getText();
+        System.out.println("actualMessage = " + actualMessage);
+        Assert.assertTrue(actualMessage.contains(dataList.get(rowNumber).get("Name")));
+    }
+
+
+    @And("The user set data")
+    public void theUserSetData() {
+        excelUtil.setCellData("Microsoft",5,3);
+    }
 }

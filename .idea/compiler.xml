@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Batch4CucumberSeleniumTest" />
-        <module name="Batch4TestCucumber" />
         <module name="Batch4CucumberSelenium" />
       </profile>
     </annotationProcessing>
