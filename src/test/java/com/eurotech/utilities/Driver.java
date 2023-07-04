@@ -61,6 +61,12 @@ public class Driver {
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driver = new SafariDriver();
                     break;
+                case "incognito":
+                    WebDriverManager.chromedriver().setup();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--incognito");
+                    driver= new ChromeDriver(options);
+                    break;
             }
 
         }
